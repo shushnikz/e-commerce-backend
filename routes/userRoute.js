@@ -11,6 +11,7 @@ router.post("/register", async (req, res) => {
     } catch (error) {
         return res.status(400).json(error)
     }
+
 })
 
 router.post("/login", async (req, res) => {
